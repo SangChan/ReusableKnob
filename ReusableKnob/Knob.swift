@@ -28,22 +28,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-  
-    @IBOutlet var valueLabel: UILabel!
-    @IBOutlet var valueSlider: UISlider!
-    @IBOutlet var animateSwitch: UISwitch!
-    @IBOutlet weak var knob: Knob!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-  
-    @IBAction func handleValueChanged(_ sender: Any) {
+class Knob: UIControl {
 
+    /*
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
     }
-  
-    @IBAction func handleRandomButtonPressed(_ sender: Any) {
+    */
 
-    }
 }
