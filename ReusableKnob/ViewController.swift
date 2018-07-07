@@ -41,10 +41,15 @@ class ViewController: UIViewController {
         knob.pointerLength = 12
         knob.setValue(valueSlider.value)
         updateLabel()
+        knob.addTarget(self, action: #selector(ViewController.handleValueChanged(_:)), for: .valueChanged)
     }
   
     @IBAction func handleValueChanged(_ sender: Any) {
-        knob.setValue(valueSlider.value)
+        if sender is UISlider {
+            knob.setValue(valueSlider.value)
+        } else {
+            valueSlider.value = knob.value
+        }
         updateLabel()
     }
   
