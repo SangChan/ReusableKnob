@@ -38,15 +38,6 @@ class Knob: UIControl {
     
     private let renderer = KnobRenderer()
     
-    func setValue(_ newValue: Float, animated: Bool = false) {
-        value = min(maximumValue, max(minimumValue, newValue))
-        
-        let angleRange = endAngle - startAngle
-        let valueRange = maximumValue - minimumValue
-        let angleValue = CGFloat(value - minimumValue) / CGFloat(valueRange) * angleRange + startAngle
-        renderer.setPointerAngle(angleValue, animated: animated)
-    }
-    
     var isContinuous = true
     
     var lineWidth: CGFloat {
@@ -122,6 +113,14 @@ class Knob: UIControl {
         }
     }
     
+    func setValue(_ newValue: Float, animated: Bool = false) {
+        value = min(maximumValue, max(minimumValue, newValue))
+        
+        let angleRange = endAngle - startAngle
+        let valueRange = maximumValue - minimumValue
+        let angleValue = CGFloat(value - minimumValue) / CGFloat(valueRange) * angleRange + startAngle
+        renderer.setPointerAngle(angleValue, animated: animated)
+    }
 }
 
 private class KnobRenderer {
