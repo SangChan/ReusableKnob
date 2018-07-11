@@ -31,14 +31,11 @@ import UIKit.UIGestureRecognizerSubclass
 
 class Knob: UIControl {
     var minimumValue: Float = 0
-    
     var maximumValue: Float = 1
+    var isContinuous = true
     
     private (set) var value: Float = 0
-    
     private let renderer = KnobRenderer()
-    
-    var isContinuous = true
     
     var lineWidth: CGFloat {
         get { return renderer.lineWidth }
