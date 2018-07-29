@@ -1,0 +1,16 @@
+PODS:
+  - KnobControl (0.0.1)
+
+DEPENDENCIES:
+  - KnobControl (from `../KnobControl`)
+
+EXTERNAL SOURCES:
+  KnobControl:
+    :path: "../KnobControl"
+
+SPEC CHECKSUMS:
+  KnobControl: 2884b11271c163336f9e478ebe678bfb7c5b9b80
+
+PODFILE CHECKSUM: aa4e70d5deb7a7c127b7c9337d075df2f8325f93
+
+COCOAPODS: 1.5.3

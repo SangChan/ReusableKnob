@@ -13,10 +13,14 @@
 		9A0ECEB02073DBF900347595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0ECEAA2073DBF900347595 /* Main.storyboard */; };
 		9A0ECEB22073DBF900347595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0ECEAD2073DBF900347595 /* LaunchScreen.storyboard */; };
 		9A7E75292074BFC40079BA5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E75282074BFC40079BA5F /* ViewController.swift */; };
+		FCF6129D9FA57CBF666EB27C /* Pods_ReusableKnob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1039775A9E7050EE2C8F50C5 /* Pods_ReusableKnob.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AD655A6B0F8ED01A1280765 /* Pods-ReusableKnob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableKnob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReusableKnob/Pods-ReusableKnob.debug.xcconfig"; sourceTree = "<group>"; };
+		1039775A9E7050EE2C8F50C5 /* Pods_ReusableKnob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReusableKnob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CAF96720ECC46F006C016F /* Knob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		65AB40F58C1A9581F91DC030 /* Pods-ReusableKnob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableKnob.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReusableKnob/Pods-ReusableKnob.release.xcconfig"; sourceTree = "<group>"; };
 		9A0ECEA82073DBF900347595 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A0ECEA92073DBF900347595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0ECEAB2073DBF900347595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF6129D9FA57CBF666EB27C /* Pods_ReusableKnob.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,11 +56,30 @@
 			path = ReusableKnob;
 			sourceTree = "<group>";
 		};
+		A23DD617DB71F19F80E0E61D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1039775A9E7050EE2C8F50C5 /* Pods_ReusableKnob.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C839368EE23EAB6C8543787A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AD655A6B0F8ED01A1280765 /* Pods-ReusableKnob.debug.xcconfig */,
+				65AB40F58C1A9581F91DC030 /* Pods-ReusableKnob.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D2A5F1F71F4A9143005CD714 = {
 			isa = PBXGroup;
 			children = (
 				9A0ECEA72073DBF900347595 /* ReusableKnob */,
 				D2A5F2011F4A9144005CD714 /* Products */,
+				C839368EE23EAB6C8543787A /* Pods */,
+				A23DD617DB71F19F80E0E61D /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -77,6 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "ReusableKnob" */;
 			buildPhases = (
+				8A08A2F4301A592C59746AF0 /* [CP] Check Pods Manifest.lock */,
 				D2A5F1FC1F4A9144005CD714 /* Sources */,
 				D2A5F1FD1F4A9144005CD714 /* Frameworks */,
 				D2A5F1FE1F4A9144005CD714 /* Resources */,
@@ -136,6 +161,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A08A2F4301A592C59746AF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReusableKnob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2A5F1FC1F4A9144005CD714 /* Sources */ = {
@@ -275,6 +321,7 @@
 		};
 		D2A5F2131F4A9144005CD714 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD655A6B0F8ED01A1280765 /* Pods-ReusableKnob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -291,6 +338,7 @@
 		};
 		D2A5F2141F4A9144005CD714 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AB40F58C1A9581F91DC030 /* Pods-ReusableKnob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
