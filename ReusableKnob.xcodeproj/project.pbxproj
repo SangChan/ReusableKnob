@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63CAF96820ECC46F006C016F /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAF96720ECC46F006C016F /* Knob.swift */; };
 		9A0ECEAE2073DBF900347595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0ECEA82073DBF900347595 /* AppDelegate.swift */; };
 		9A0ECEAF2073DBF900347595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0ECEA92073DBF900347595 /* Assets.xcassets */; };
 		9A0ECEB02073DBF900347595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0ECEAA2073DBF900347595 /* Main.storyboard */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		0AD655A6B0F8ED01A1280765 /* Pods-ReusableKnob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableKnob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReusableKnob/Pods-ReusableKnob.debug.xcconfig"; sourceTree = "<group>"; };
 		1039775A9E7050EE2C8F50C5 /* Pods_ReusableKnob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReusableKnob.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63CAF96720ECC46F006C016F /* Knob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
 		65AB40F58C1A9581F91DC030 /* Pods-ReusableKnob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReusableKnob.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReusableKnob/Pods-ReusableKnob.release.xcconfig"; sourceTree = "<group>"; };
 		9A0ECEA82073DBF900347595 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A0ECEA92073DBF900347595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,7 +49,6 @@
 				9A0ECEAD2073DBF900347595 /* LaunchScreen.storyboard */,
 				9A0ECEAA2073DBF900347595 /* Main.storyboard */,
 				9A7E75282074BFC40079BA5F /* ViewController.swift */,
-				63CAF96720ECC46F006C016F /* Knob.swift */,
 			);
 			path = ReusableKnob;
 			sourceTree = "<group>";
@@ -189,7 +186,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A7E75292074BFC40079BA5F /* ViewController.swift in Sources */,
-				63CAF96820ECC46F006C016F /* Knob.swift in Sources */,
 				9A0ECEAE2073DBF900347595 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
