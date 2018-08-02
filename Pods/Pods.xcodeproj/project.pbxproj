@@ -7,42 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CA5325B6AEBE0D2A5A56ECD3B4C8BB7 /* Pods-ReusableKnob-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 039025023EB77AA07B75C535748D8725 /* Pods-ReusableKnob-dummy.m */; };
-		9B744B884A186612EB3DA3A1DE2091DE /* Pods-ReusableKnob-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B422867FE607B72D82762BE33916B02 /* Pods-ReusableKnob-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A16DC3784ACE8C14CD9592C1A72B4B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5DA9CA6EFF50AC7E8E4F16769001F4BE /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E6D2F9E6B61954737FCB6A3B8423F /* Knob.swift */; };
+		77571C595148C9005C5FCD9A7758DDCF /* KnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C8AD3B0E3597CF7646D038648B21BE5E /* KnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B89534D3DE05527CB0B31EF205E0F9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		80E15428E5EB7555C171E99B4CA5851F /* Pods-ReusableKnob-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 039025023EB77AA07B75C535748D8725 /* Pods-ReusableKnob-dummy.m */; };
+		8316403476436F9CA3759E026650AE08 /* KnobControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF551CCE1D1ACAF366529485B0E4CAC5 /* KnobControl-dummy.m */; };
+		E2ACD79A11F9BE08C06A33CA6D3BA467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E942365CAB9D6CD0FE4E5C59F4063F4E /* KnobControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E39B86D99C001B840234E5CEFF2BBB09 /* KnobControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF9690469E4886AB7B02B97A043D6C05 /* Pods-ReusableKnob-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B422867FE607B72D82762BE33916B02 /* Pods-ReusableKnob-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		800620629BD58BE863D29B8AF8A522EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC473E33F3B75D317085BF466A7EB659;
+			remoteInfo = KnobControl;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		039025023EB77AA07B75C535748D8725 /* Pods-ReusableKnob-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReusableKnob-dummy.m"; sourceTree = "<group>"; };
+		0DE601C04FB33DB1E4895987A1E2D375 /* KnobControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KnobControl.framework; path = KnobControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1318F503C49FA26386FF649ECE591240 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2214D1BAADD942245EFB1ADCD0631E8C /* Pods-ReusableKnob-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReusableKnob-resources.sh"; sourceTree = "<group>"; };
 		31FA8528F7E8A77C78F714D241C080C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377E6D2F9E6B61954737FCB6A3B8423F /* Knob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Knob.swift; path = KnobControl/Knob.swift; sourceTree = "<group>"; };
 		3B422867FE607B72D82762BE33916B02 /* Pods-ReusableKnob-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReusableKnob-umbrella.h"; sourceTree = "<group>"; };
-		59925E5F78BF2FCB1183D3B7927E0A25 /* Pods_ReusableKnob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReusableKnob.framework; path = "Pods-ReusableKnob.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C993C43E025F8EE4A1CDBD2134DE78D /* Pods-ReusableKnob-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReusableKnob-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CB90F8D4FC94BF92275208EE28D1283 /* KnobControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KnobControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7A50C2946DCF6A015196097AA17BCA12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7CD2EBECDDF5F551CD3ECC76CC558CAB /* Pods-ReusableKnob.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReusableKnob.modulemap"; sourceTree = "<group>"; };
+		8C3BA3B0816B87E92C410D8B6A526D14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		91F131C80C66A779932BF1340611A853 /* KnobControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KnobControl.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B10DB9B280FDDBE874315C428D2F974 /* KnobControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KnobControl-prefix.pch"; sourceTree = "<group>"; };
 		A9484F4D9FAC2F635037B3447E89A23C /* Pods-ReusableKnob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableKnob.debug.xcconfig"; sourceTree = "<group>"; };
-		AD64C1A1421B27A0585DE95CD0CD29B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B212E1B4539885850CC1A1A3D378DFCF /* Pods-ReusableKnob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReusableKnob.release.xcconfig"; sourceTree = "<group>"; };
 		B3CC0E6C632BC7F05E73E0266DC1EB2D /* Pods-ReusableKnob-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReusableKnob-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B41F109EC57750B0B432B68EF1C5A8B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6268A5C801DFA5D3DD24C42F6694559 /* KnobControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KnobControl.xcconfig; sourceTree = "<group>"; };
+		C8AD3B0E3597CF7646D038648B21BE5E /* KnobControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KnobControl.h; path = KnobControl/KnobControl.h; sourceTree = "<group>"; };
+		CE61563360FBCF7F3AB33DB3D03EC942 /* Pods_ReusableKnob.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReusableKnob.framework; path = "Pods-ReusableKnob.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF551CCE1D1ACAF366529485B0E4CAC5 /* KnobControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KnobControl-dummy.m"; sourceTree = "<group>"; };
+		E39B86D99C001B840234E5CEFF2BBB09 /* KnobControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KnobControl-umbrella.h"; sourceTree = "<group>"; };
+		E9C1F2C8CF0300E136FBCAF6991C6FFB /* KnobControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KnobControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EAC017848AB6837189F5007D8D97FEA9 /* Pods-ReusableKnob-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReusableKnob-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15A6C6733E584E2C7C4C95A5C296D282 /* Frameworks */ = {
+		3A331F57031E4BDCADEDC7A4164446A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16DC3784ACE8C14CD9592C1A72B4B18 /* Foundation.framework in Frameworks */,
+				E2ACD79A11F9BE08C06A33CA6D3BA467 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81294B2070CB1079169606B430E19E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B89534D3DE05527CB0B31EF205E0F9D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093CD89B5887E275100BCDE19FAD3D4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1318F503C49FA26386FF649ECE591240 /* Info.plist */,
+				91F131C80C66A779932BF1340611A853 /* KnobControl.modulemap */,
+				B6268A5C801DFA5D3DD24C42F6694559 /* KnobControl.xcconfig */,
+				CF551CCE1D1ACAF366529485B0E4CAC5 /* KnobControl-dummy.m */,
+				9B10DB9B280FDDBE874315C428D2F974 /* KnobControl-prefix.pch */,
+				E39B86D99C001B840234E5CEFF2BBB09 /* KnobControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../ReusableKnob/Pods/Target Support Files/KnobControl";
+			sourceTree = "<group>";
+		};
+		391E24498DAED730E5BF3F92AF722C1E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E9C1F2C8CF0300E136FBCAF6991C6FFB /* KnobControl.podspec */,
+				B41F109EC57750B0B432B68EF1C5A8B4 /* LICENSE */,
+				8C3BA3B0816B87E92C410D8B6A526D14 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -51,30 +107,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		64BE6B837D4A5170EC2E80928A95A9CE /* KnobControl */ = {
+		75C3192A00AC3D49346C028C32C6C02A /* KnobControl */ = {
 			isa = PBXGroup;
 			children = (
-				A2FD160555A9DD17529E7DD60BF8F6C0 /* Pod */,
+				377E6D2F9E6B61954737FCB6A3B8423F /* Knob.swift */,
+				C8AD3B0E3597CF7646D038648B21BE5E /* KnobControl.h */,
+				391E24498DAED730E5BF3F92AF722C1E /* Pod */,
+				093CD89B5887E275100BCDE19FAD3D4A /* Support Files */,
 			);
 			name = KnobControl;
 			path = ../../KnobControl;
-			sourceTree = "<group>";
-		};
-		7AB99A9693F65AC06ECE47771691858D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				59925E5F78BF2FCB1183D3B7927E0A25 /* Pods_ReusableKnob.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B17F4EF146FA15EF1C979DE8E425B31C /* Development Pods */,
+				B7082B576516EA830488EDAE34B33EE7 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7AB99A9693F65AC06ECE47771691858D /* Products */,
+				BF473D9FB17C9A9B5C10356CDA257782 /* Products */,
 				88AAF7F9B3DF6B2E6AF2F02C61F8FA1F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -105,20 +156,10 @@
 			path = "Target Support Files/Pods-ReusableKnob";
 			sourceTree = "<group>";
 		};
-		A2FD160555A9DD17529E7DD60BF8F6C0 /* Pod */ = {
+		B7082B576516EA830488EDAE34B33EE7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6CB90F8D4FC94BF92275208EE28D1283 /* KnobControl.podspec */,
-				7A50C2946DCF6A015196097AA17BCA12 /* LICENSE */,
-				AD64C1A1421B27A0585DE95CD0CD29B3 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B17F4EF146FA15EF1C979DE8E425B31C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				64BE6B837D4A5170EC2E80928A95A9CE /* KnobControl */,
+				75C3192A00AC3D49346C028C32C6C02A /* KnobControl */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -131,35 +172,71 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF473D9FB17C9A9B5C10356CDA257782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DE601C04FB33DB1E4895987A1E2D375 /* KnobControl.framework */,
+				CE61563360FBCF7F3AB33DB3D03EC942 /* Pods_ReusableKnob.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9A93A73A188294C182BD489F2A326ED1 /* Headers */ = {
+		327DE63492369A6C7A0238022D0C8323 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B744B884A186612EB3DA3A1DE2091DE /* Pods-ReusableKnob-umbrella.h in Headers */,
+				EF9690469E4886AB7B02B97A043D6C05 /* Pods-ReusableKnob-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC140AAC01890F2BD20B8E066812258 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E942365CAB9D6CD0FE4E5C59F4063F4E /* KnobControl-umbrella.h in Headers */,
+				77571C595148C9005C5FCD9A7758DDCF /* KnobControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8237E0AEA12C1CE63D75B9760145F2D6 /* Pods-ReusableKnob */ = {
+		3359FFB20014CEC4F4BBD54F7F520DAF /* Pods-ReusableKnob */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03E305105E7823652F760ABCFFB2A6F2 /* Build configuration list for PBXNativeTarget "Pods-ReusableKnob" */;
+			buildConfigurationList = DBC0C107FC3B1571A413AEAFD317C7E8 /* Build configuration list for PBXNativeTarget "Pods-ReusableKnob" */;
 			buildPhases = (
-				72F7CDCB36A4717781E853BF8C9B9012 /* Sources */,
-				15A6C6733E584E2C7C4C95A5C296D282 /* Frameworks */,
-				9A93A73A188294C182BD489F2A326ED1 /* Headers */,
+				1C31651122B519DDC46EAC7734572028 /* Sources */,
+				81294B2070CB1079169606B430E19E67 /* Frameworks */,
+				327DE63492369A6C7A0238022D0C8323 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EDF1219F14F928153448169274C357C /* PBXTargetDependency */,
+			);
+			name = "Pods-ReusableKnob";
+			productName = "Pods-ReusableKnob";
+			productReference = CE61563360FBCF7F3AB33DB3D03EC942 /* Pods_ReusableKnob.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC473E33F3B75D317085BF466A7EB659 /* KnobControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDBB45B81ABC1895159741D48164873C /* Build configuration list for PBXNativeTarget "KnobControl" */;
+			buildPhases = (
+				A003D9CA0E0EF9E66CA926C1837557D2 /* Sources */,
+				3A331F57031E4BDCADEDC7A4164446A9 /* Frameworks */,
+				9EC140AAC01890F2BD20B8E066812258 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-ReusableKnob";
-			productName = "Pods-ReusableKnob";
-			productReference = 59925E5F78BF2FCB1183D3B7927E0A25 /* Pods_ReusableKnob.framework */;
+			name = KnobControl;
+			productName = KnobControl;
+			productReference = 0DE601C04FB33DB1E4895987A1E2D375 /* KnobControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -179,25 +256,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7AB99A9693F65AC06ECE47771691858D /* Products */;
+			productRefGroup = BF473D9FB17C9A9B5C10356CDA257782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8237E0AEA12C1CE63D75B9760145F2D6 /* Pods-ReusableKnob */,
+				CC473E33F3B75D317085BF466A7EB659 /* KnobControl */,
+				3359FFB20014CEC4F4BBD54F7F520DAF /* Pods-ReusableKnob */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		72F7CDCB36A4717781E853BF8C9B9012 /* Sources */ = {
+		1C31651122B519DDC46EAC7734572028 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA5325B6AEBE0D2A5A56ECD3B4C8BB7 /* Pods-ReusableKnob-dummy.m in Sources */,
+				80E15428E5EB7555C171E99B4CA5851F /* Pods-ReusableKnob-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A003D9CA0E0EF9E66CA926C1837557D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA9CA6EFF50AC7E8E4F16769001F4BE /* Knob.swift in Sources */,
+				8316403476436F9CA3759E026650AE08 /* KnobControl-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EDF1219F14F928153448169274C357C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KnobControl;
+			target = CC473E33F3B75D317085BF466A7EB659 /* KnobControl */;
+			targetProxy = 800620629BD58BE863D29B8AF8A522EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
@@ -258,7 +354,41 @@
 			};
 			name = Release;
 		};
-		5E9E18D2D9BFC8F3CEA59F8483D9814E /* Debug */ = {
+		30CD9CDBAC2D59A42C438A9B162FBCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6268A5C801DFA5D3DD24C42F6694559 /* KnobControl.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KnobControl/KnobControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KnobControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KnobControl/KnobControl.modulemap";
+				PRODUCT_MODULE_NAME = KnobControl;
+				PRODUCT_NAME = KnobControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6523F5317288F60E69AF901476794C7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9484F4D9FAC2F635037B3447E89A23C /* Pods-ReusableKnob.debug.xcconfig */;
 			buildSettings = {
@@ -286,11 +416,82 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		808E4C220C1D21C43A133B06AFD5E41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6268A5C801DFA5D3DD24C42F6694559 /* KnobControl.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KnobControl/KnobControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KnobControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KnobControl/KnobControl.modulemap";
+				PRODUCT_MODULE_NAME = KnobControl;
+				PRODUCT_NAME = KnobControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96BEE213A5A272DAAA62E2DDDA5ECB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B212E1B4539885850CC1A1A3D378DFCF /* Pods-ReusableKnob.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReusableKnob/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReusableKnob/Pods-ReusableKnob.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -355,58 +556,32 @@
 			};
 			name = Debug;
 		};
-		BF6691AC8BC904EE3081994802D44EA8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B212E1B4539885850CC1A1A3D378DFCF /* Pods-ReusableKnob.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ReusableKnob/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ReusableKnob/Pods-ReusableKnob.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03E305105E7823652F760ABCFFB2A6F2 /* Build configuration list for PBXNativeTarget "Pods-ReusableKnob" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E9E18D2D9BFC8F3CEA59F8483D9814E /* Debug */,
-				BF6691AC8BC904EE3081994802D44EA8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
 				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC0C107FC3B1571A413AEAFD317C7E8 /* Build configuration list for PBXNativeTarget "Pods-ReusableKnob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6523F5317288F60E69AF901476794C7A /* Debug */,
+				96BEE213A5A272DAAA62E2DDDA5ECB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDBB45B81ABC1895159741D48164873C /* Build configuration list for PBXNativeTarget "KnobControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808E4C220C1D21C43A133B06AFD5E41F /* Debug */,
+				30CD9CDBAC2D59A42C438A9B162FBCCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

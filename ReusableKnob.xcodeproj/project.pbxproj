@@ -102,6 +102,7 @@
 				D2A5F1FC1F4A9144005CD714 /* Sources */,
 				D2A5F1FD1F4A9144005CD714 /* Frameworks */,
 				D2A5F1FE1F4A9144005CD714 /* Resources */,
+				29998E94B8AF69CA27171432 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +161,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		29998E94B8AF69CA27171432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReusableKnob/Pods-ReusableKnob-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KnobControl/KnobControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KnobControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReusableKnob/Pods-ReusableKnob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8A08A2F4301A592C59746AF0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../KnobControl"
 
 SPEC CHECKSUMS:
-  KnobControl: 2884b11271c163336f9e478ebe678bfb7c5b9b80
+  KnobControl: afeb8981bd3286c6ad32130a6414a09d9cee5abf
 
 PODFILE CHECKSUM: aa4e70d5deb7a7c127b7c9337d075df2f8325f93
 

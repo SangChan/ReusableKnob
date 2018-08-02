@@ -12,12 +12,7 @@
     "ios": "10.0"
   },
   "source": {
-    "git": "https://github.com/SangChan/KnobControl.git",
-    "tag": "0.0.1"
+    "path": "."
   },
-  "source_files": [
-    "Classes",
-    "Classes/**/*.{h,m}"
-  ],
-  "exclude_files": "Classes/Exclude"
+  "source_files": "KnobControl"
 }
